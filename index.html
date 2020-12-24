@@ -22,11 +22,11 @@
                     <img src="img/logo.webp" alt="logo image" draggable="false">
                 </div>
                 <ul class="nav">
-                    <li> <a href="#">Home</a> </li>
-                    <li> <a href="#">About</a> </li>
-                    <li> <a href="#">Menu</a> </li>
-                    <li> <a href="#">Servies</a> </li>
-                    <li> <a href="#">staff</a> </li>
+                    <li> <a href="#home">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#portfolio">Menu</a> </li>
+                    <li> <a href="#offer">Servies</a> </li>
+                    <li> <a href="#staff">staff</a> </li>
                     <li class="dropdown"> <a href="#">Specials</a>
                         <ul class="dropdown-menu">
                             <li> <a href="#">Special Burger</a> </li>
@@ -35,8 +35,8 @@
                         </ul>
                     
                     </li>
-                    <li> <a href="#">Prices</a> </li>
-                    <li> <a href="#">Contact</a> </li>
+                    <li> <a href="#prices">Prices</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
                 </ul>
                 <div class="clear"></div>
         </div>
@@ -45,6 +45,7 @@
     <!--/header-->
 
     <!--home section-->
+    <section id="home" class="home">
     <div class="home">
         <div class="overlay">
             <div class="home-content">
@@ -57,10 +58,11 @@
 
             </div> <!--/home-content-->
         </div>
-    </div>
+    </div></section>
     <!--/home-->
 
     <!--header section-->
+    <section id="about" class="about">
     <div class="about pd-y">
         <div class="section-header">
             <h2 class="section-title">welcome to website</h2>
@@ -90,9 +92,12 @@
                 <div class="clear"></div>
             </div> <!--about-content-->
         </div> <!--/container-->
-    </div> <!--/header-->
+    </div></section>
+    <!--/header-->
 
-    <!--portfolio-->
+    
+    <!--menu-->
+    <section id="portfolio" class="portfolio">
     <div class="portfolio pd-y">
         <div class="section-header">
             <h2 class="portfolio-title">our burgers</h2>
@@ -164,9 +169,11 @@
 
                 <div class="clear"></div>
         </div>
-    </div><!--/portfolio-->
+    </div></section>
+    <!--/menu-->
 
-    <!--offer section-->
+    <!--Servies-->
+    <section id="offer" class="offer">
     <div class="offer pd-y">
         <div class="section-header">
             <h2 class="section-title">our servies</h2>
@@ -211,10 +218,12 @@
             </div>
             
         </div><!--/container-->
-    </div><!--/offer-->
+    </div></section>
+    <!--/Servies-->
 
 
     <!--staff section-->
+    <section id="staff" class="staff">
     <div class="staff pd-y">
         <div class="container">
             <div class="staff-content">
@@ -246,7 +255,8 @@
                 <div class="clear"></div>
             </div>
         </div><!--/container-->
-    </div> <!--/staff-->
+    </div></section> 
+    <!--/staff-->
 
     <!--Specials section-->
     <div class="specials">
@@ -278,55 +288,7 @@
         </div><!--/overlay-->
     </div><!--/specials-->
 
-    <!--Prices section-->
-    <div class="prices pd-y">
-        <div class="section-header">
-            <h2 class="portfolio-title">our prices</h2>
-            <span class="line"></span>
-        </div>
-        <div class="container">
-            <div class="pricing-plan">
-                <div class="pricing-item tb-effect">
-                    <span class="pricing-item-text">first offer</span>
-                    <div class="pricing-item-permeal">
-                        <h3 class="doller">$9</h3>
-                        <span class="month">/ meal</span>
-                    </div>
-                    <ul class="pricing-list">
-                        <li>one burger</li>
-                        <li>cold drink</li>
-                        <li>fries</li>
-                    </ul><button class="pricing-item-buy">order now</button>
-                </div>
-                <div class="pricing-item mg tb-effect">
-                    <span class="pricing-item-text">second offer</span>
-                    <div class="pricing-item-permeal">
-                        <h3 class="doller">$15</h3>
-                        <span class="month">/ meal</span>
-                    </div>
-                    <ul class="pricing-list">
-                        <li>two burgers</li>
-                        <li>cold drink</li>
-                        <li>fries</li>
-                    </ul><button class="pricing-item-buy">order now</button>
-                </div>
-                <div class="pricing-item tb-effect">
-                    <span class="pricing-item-text">third offer</span>
-                    <div class="pricing-item-permeal">
-                        <h3 class="doller">$20</h3>
-                        <span class="month">/ meal</span>
-                    </div>
-                    <ul class="pricing-list">
-                        <li>four burgers</li>
-                        <li>cold drink</li>
-                        <li>fries</li>
-                    </ul><button class="pricing-item-buy">order now</button>
-                </div>
-                <div class="clear"></div>
-            </div><!--/pricing-plan-->
-        </div>
-    </div> <!--/Prices-->
-
+    
     <!--tastimonail section-->
     <div class="tastimonail">
         <div class="overlay">
@@ -498,7 +460,59 @@
 
     </div>
 
+    <!--Prices section-->
+    <section id="prices" class="prices">
+    <div class="prices pd-y">
+        <div class="section-header">
+            <h2 class="portfolio-title">our prices</h2>
+            <span class="line"></span>
+        </div>
+        <div class="container">
+            <div class="pricing-plan">
+                <div class="pricing-item tb-effect">
+                    <span class="pricing-item-text">first offer</span>
+                    <div class="pricing-item-permeal">
+                        <h3 class="doller">$9</h3>
+                        <span class="month">/ meal</span>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>one burger</li>
+                        <li>cold drink</li>
+                        <li>fries</li>
+                    </ul><button class="pricing-item-buy">order now</button>
+                </div>
+                <div class="pricing-item mg tb-effect">
+                    <span class="pricing-item-text">second offer</span>
+                    <div class="pricing-item-permeal">
+                        <h3 class="doller">$15</h3>
+                        <span class="month">/ meal</span>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>two burgers</li>
+                        <li>cold drink</li>
+                        <li>fries</li>
+                    </ul><button class="pricing-item-buy">order now</button>
+                </div>
+                <div class="pricing-item tb-effect">
+                    <span class="pricing-item-text">third offer</span>
+                    <div class="pricing-item-permeal">
+                        <h3 class="doller">$20</h3>
+                        <span class="month">/ meal</span>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>four burgers</li>
+                        <li>cold drink</li>
+                        <li>fries</li>
+                    </ul><button class="pricing-item-buy">order now</button>
+                </div>
+                <div class="clear"></div>
+            </div><!--/pricing-plan-->
+        </div>
+    </div></section> 
+    <!--/Prices-->
+
     <!--contact-->
+    <section id="contact" class="contact"></section>
     <div class="contact pd-y">
         <div class="section-header">
             <h2 class="contact-title">get in touch</h2>
@@ -527,7 +541,8 @@
                 <div class="clear"></div>
             </div><!--container-->
         </div><!--/contact-->
-    </div><!--/contact-->
+    </div></section>
+    <!--/contact-->
 
     <!--footer-->
     <div class="footer pd-y">
